@@ -40,6 +40,84 @@ orders    1 ─── many order_items
 products  1 ─── many order_items
 categories 1 ── many products
 ```
+## Results Snapshot
+
+The following results were generated from the version-controlled sample data
+included in this repository.
+
+Revenue metrics include valid sales orders used by the analytics queries. The
+dataset contains 12 total orders, of which 10 contribute to the reported sales
+metrics.
+
+### Dataset overview
+
+| Metric | Value |
+|---|---:|
+| Customers | 8 |
+| Product categories | 5 |
+| Products | 12 |
+| Total orders | 12 |
+| Order items | 22 |
+| Valid sales orders | 10 |
+| Valid-order revenue | 1,877.68 |
+| Average valid order value | 187.77 |
+
+### Customer metrics
+
+| Metric | Result |
+|---|---:|
+| Purchasing customers | 6 |
+| Repeat customers | 3 |
+| Repeat-purchase rate | 50.00% |
+
+### Top products by net revenue
+
+| Rank | Product | Units sold | Net revenue | Gross profit |
+|---:|---|---:|---:|---:|
+| 1 | Mechanical Keyboard | 3 | 339.97 | 144.97 |
+| 2 | Wireless Headphones | 3 | 269.97 | 134.97 |
+| 3 | Ergonomic Office Chair | 1 | 229.99 | 84.99 |
+| 4 | SQL Fundamentals | 5 | 214.95 | 114.95 |
+| 5 | Cotton T-Shirt | 5 | 144.95 | 84.95 |
+
+### Category performance
+
+| Category | Orders | Units sold | Net revenue | Gross profit | Gross margin |
+|---|---:|---:|---:|---:|---:|
+| Electronics | 7 | 7 | 679.93 | 311.93 | 45.88% |
+| Books | 4 | 7 | 319.93 | 171.93 | 53.74% |
+| Home | 2 | 2 | 299.98 | 120.98 | 40.33% |
+| Fashion | 2 | 6 | 279.94 | 139.94 | 49.99% |
+| Sports | 2 | 3 | 259.97 | 121.97 | 46.92% |
+
+### Monthly revenue
+
+| Month | Valid orders | Revenue | Average order value |
+|---|---:|---:|---:|
+| January 2026 | 2 | 289.95 | 144.98 |
+| February 2026 | 2 | 233.93 | 116.97 |
+| March 2026 | 1 | 356.97 | 356.97 |
+| April 2026 | 1 | 219.98 | 219.98 |
+| May 2026 | 2 | 416.91 | 208.46 |
+| June 2026 | 2 | 359.94 | 179.97 |
+
+### Key findings
+
+- **Electronics was the strongest category**, generating 679.93 in net
+  revenue and 311.93 in gross profit.
+- **Books achieved the highest gross margin at 53.74%**, despite generating
+  less revenue than Electronics.
+- **Mechanical Keyboard was the highest-revenue product**, producing 339.97
+  in net revenue and 144.97 in gross profit.
+- **SQL Fundamentals and Cotton T-Shirt jointly led unit sales**, with five
+  units sold each.
+- **May 2026 was the strongest revenue month**, generating 416.91 from two
+  valid orders.
+- **March had the highest average order value at 356.97**, driven by one
+  comparatively large order.
+- **Half of all purchasing customers were repeat customers**, resulting in a
+  repeat-purchase rate of 50.00%.
+
 
 ## Project structure
 
