@@ -1,0 +1,13 @@
+name: retailpulse
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pytest
+  - python-dotenv
+  - ruff
+  - faker
+  - psycopg
+  - sqlalchemy
+  - pandas
+prefix: /opt/anaconda3/envs/retailpulse
