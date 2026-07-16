@@ -1,15 +1,28 @@
-# Secrets
-.env
-
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
-.ruff_cache/
-
 # macOS
 .DS_Store
 
-# Generated project data
-data/generated/
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Conda
+.conda/
+conda-meta/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Generated outputs
 *.log
+output/
+results/
+
+# Editors
+.vscode/
+.idea/
+*.swp

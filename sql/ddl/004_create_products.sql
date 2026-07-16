@@ -1,14 +1,10 @@
 CREATE TABLE IF NOT EXISTS retail.products (
     product_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-
     category_id BIGINT NOT NULL,
-
     product_name VARCHAR(150) NOT NULL,
     sku VARCHAR(50) NOT NULL UNIQUE,
-
     unit_price NUMERIC(10, 2) NOT NULL,
     unit_cost NUMERIC(10, 2) NOT NULL,
-
     is_active BOOLEAN NOT NULL DEFAULT TRUE,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
 

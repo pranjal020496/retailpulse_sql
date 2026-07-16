@@ -1,8 +1,6 @@
 CREATE TABLE IF NOT EXISTS retail.categories (
     category_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-
     category_name VARCHAR(100) NOT NULL UNIQUE,
     category_description TEXT,
-
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
