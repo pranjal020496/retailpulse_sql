@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Generated project data
+data/generated/
+*.log
