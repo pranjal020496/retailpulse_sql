@@ -1,13 +1,10 @@
 name: retailpulse
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.12
-  - pytest
-  - python-dotenv
-  - ruff
-  - faker
-  - psycopg
-  - sqlalchemy
+  - pip
   - pandas
-prefix: /opt/anaconda3/envs/retailpulse
+  - sqlalchemy
+  - psycopg2
+  - jupyterlab
