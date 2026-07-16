@@ -12,7 +12,6 @@ category, revenue and profitability insights.
 - Customer lifetime value and repeat-purchase analysis
 - Product and category profitability analysis
 - Data-quality tests, indexes and reusable SQL views
-## Data model
 
 ## Business questions answered
 
@@ -25,6 +24,7 @@ category, revenue and profitability insights.
 - Which products perform best within each category?
 - How much discounting affects product profitability?
 
+## Data model
 
 ```mermaid
 erDiagram
