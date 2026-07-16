@@ -1,22 +1,17 @@
-# RetailPulse SQL Analytics
+# RetailPulse — PostgreSQL E-commerce Analytics
 
-RetailPulse is a portfolio-ready PostgreSQL project that models a small
-e-commerce business and answers practical sales questions with SQL.
+RetailPulse is an end-to-end PostgreSQL analytics project that models an
+e-commerce business and transforms transactional data into customer, product,
+category, revenue and profitability insights.
 
-## Skills demonstrated
+## Project highlights
 
-- Relational data modelling
-- Primary and foreign keys
-- `NOT NULL`, `UNIQUE` and `CHECK` constraints
-- Repeatable seed scripts
-- Multi-table joins
-- Aggregations and subqueries
-- Common table expressions
-- Window functions
-- Views and indexes
-- Data-quality checks
-- Reproducible command-line workflows
-
+- Normalized five-table relational data model
+- Automated database setup and repeatable data loading
+- Eight business-focused analytics queries
+- Customer lifetime value and repeat-purchase analysis
+- Product and category profitability analysis
+- Data-quality tests, indexes and reusable SQL views
 ## Data model
 
 ```mermaid
