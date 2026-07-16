@@ -137,14 +137,7 @@ The reset script deletes the complete `retail` schema and rebuilds it:
 
 It asks for explicit confirmation.
 
-## Suggested Git commands
 
-```bash
-git switch -c feature/complete-retailpulse
-git add .
-git commit -m "feat: complete RetailPulse SQL analytics project"
-git push -u origin feature/complete-retailpulse
-```
 
 ## Portfolio summary
 
