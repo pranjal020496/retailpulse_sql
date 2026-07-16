@@ -14,6 +14,18 @@ category, revenue and profitability insights.
 - Data-quality tests, indexes and reusable SQL views
 ## Data model
 
+## Business questions answered
+
+- Which products generate the most revenue?
+- Which categories produce the highest gross margins?
+- Who are the most valuable customers?
+- What is the average order value?
+- How does revenue change month by month?
+- What percentage of customers make repeat purchases?
+- Which products perform best within each category?
+- How much discounting affects product profitability?
+
+
 ```mermaid
 erDiagram
     CUSTOMERS ||--o{ ORDERS : places
