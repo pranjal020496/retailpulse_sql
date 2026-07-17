@@ -1,5 +1,9 @@
 # RetailPulse — PostgreSQL E-commerce Analytics
 
+[![SQL CI](https://github.com/pranjal020496/retailpulse_sql/actions/workflows/sql-ci.yml/badge.svg)](https://github.com/pranjal020496/retailpulse_sql/actions/workflows/sql-ci.yml)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 RetailPulse is an end-to-end PostgreSQL analytics project that models an
 e-commerce business and transforms transactional data into customer, product,
 category, revenue and profitability insights.
@@ -122,7 +126,7 @@ metrics.
 ## Project structure
 
 ```text
-retailpulse_sql_complete/
+retailpulse_sql/
 ├── sql/
 │   ├── ddl/          # Schema, tables, indexes and views
 │   ├── seed/         # Repeatable sample data
@@ -140,7 +144,7 @@ retailpulse_sql_complete/
 You need a running PostgreSQL server and the `psql` and `createdb` commands.
 
 ```bash
-cd retailpulse_sql_complete
+cd retailpulse_sql
 chmod +x scripts/*.sh
 ./scripts/setup_database.sh retailpulse
 ```
